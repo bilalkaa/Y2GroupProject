@@ -1,0 +1,90 @@
+[
+    {
+      "id": "1617266843658",
+      "accountType": "admin",
+      "name": "Jack Doe",
+      "email": "jack@gmail.com",
+      "password": "$2b$10$aQP48okULmxAeb/JWE9YiuZa8OHyyUM.SEcM9Sz.DnYMMDN3yXwYi"
+    },
+    {
+      "id": "1617266890009",
+      "accountType": "admin",
+      "name": "James Doe",
+      "email": "james@gmail.com",
+      "password": "$2b$10$I7MAcIFc6SvbT4PJ66qb8u5CXaIKjwW6l8CUa4qJYlRQRT1oH4z/u"
+    },
+    {
+      "id": "1617235572690",
+      "accountType": "user",
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "jobRole": "Analyst",
+      "password": "$2b$10$l2bFaAbOq/u87LUav4AjH.OzM0VQAVFyNMBgCF5YEK8bJ2sSKUTjC",
+      "mentor": {
+        "primarySkills": "Helping",
+        "requests": ["1617235582982"],
+        "mentoringPair": [
+          { "mentorId": "1617235572690", "menteeId": "1617235582982" }
+        ]
+      }
+    },
+    {
+      "id": "1617235582982",
+      "accountType": "user",
+      "name": "Jane Doe",
+      "email": "jane@gmail.com",
+      "jobRole": "Engineer",
+      "password": "$2b$10$jBBV8hcf8GGEyQhIQSTraOiTJbyOJPgT1X3Xyc4PpijkTc1Mvt3hu",
+      "mentor": {
+        "primarySkills": "Counting",
+        "requests": [],
+        "mentoringPair": [
+          { "mentorId": "1617235582982", "menteeId": "1617235592370" }
+        ]
+      },
+      "mentee": {
+        "desiredSkills": "Helping",
+        "requested": ["1617235572690"],
+        "mentoringPair": [
+          { "mentorId": "1617235572690", "menteeId": "1617235582982" }
+        ]
+      }
+    },
+    {
+      "id": "1617235592370",
+      "accountType": "user",
+      "name": "Jill Doe",
+      "email": "jill@gmail.com",
+      "jobRole": "Secretary",
+      "password": "$2b$10$amOHFf20267/ibW4rVLz4.77DZ.zx1mJm7xBuUwrqoMCbcWj9Ofci",
+      "mentee": {
+        "desiredSkills": "Counting",
+        "requested": [],
+        "mentoringPair": [
+          { "mentorId": "1617235582982", "menteeId": "1617235592370" }
+        ]
+      }
+    },
+    {
+      "id": "1618147411514",
+      "accountType": "user",
+      "name": "Jackson Doe",
+      "email": "jackson@gmail.com",
+      "password": "$2b$10$X0lUyN0ilOD2IZBp2RTLwOIaztZOpnpv.rJp3jAzfolVwkWI1WLxq"
+    },
+    {
+      "id": "1618147420211",
+      "accountType": "user",
+      "name": "Jessica Doe",
+      "email": "jessica@gmail.com",
+      "password": "$2b$10$i6LHwZiPJY.E6GDa6Dyckeoxr9vQa/hYcWKqHOLpivxgarvSMY9Ie"
+    },
+    {
+      "id": "1618147453032",
+      "accountType": "user",
+      "name": "Jacob Doe",
+      "email": "jacob@gmail.com",
+      "password": "$2b$10$tsikbGQ4AQrUhGjaA31Uzupwd.6PM2Xy5n3HQayX59LWU7e/L/1yK"
+    }
+  ]
+  

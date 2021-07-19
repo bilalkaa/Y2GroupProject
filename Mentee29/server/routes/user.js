@@ -1,0 +1,14 @@
+const express = require('express');
+var User = require('../controllers/user.js');
+var userRouter = express.Router();
+userRouter.post('/register', User.register);
+userRouter.post('/login', User.login);
+userRouter.post('/createprofile', User.createProfile);
+userRouter.post('/searchmentor', User.searchMentor);
+userRouter.post('/viewmentors', User.viewMentors);
+userRouter.post('/viewmentees', User.viewMentees);
+userRouter.post('/viewmentorrequests', User.viewMentorRequests);
+userRouter.post('/viewrequestedmentors', User.viewRequestedMentors);
+userRouter.post('/requestmentor', User.requestMentor);
+userRouter.post('/respondtomentee', User.respondToMentee);
+module.exports = userRouter;

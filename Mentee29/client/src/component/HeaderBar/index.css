@@ -1,0 +1,24 @@
+.site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    background: #fff;
+}
+.logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+}
+
+.ant-row-rtl  .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+
+.header-ul{
+    display: flex;
+    width: 200px;
+}
+.header-ul li {
+    flex-grow: 1;
+    text-align: center;
+}

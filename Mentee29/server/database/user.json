@@ -1,0 +1,107 @@
+[{
+  "id": "1617266843658",
+  "accountType": "admin",
+  "name": "Jack Doe",
+  "email": "jack@fdm.com",
+  "password": "$2b$10$aQP48okULmxAeb/JWE9YiuZa8OHyyUM.SEcM9Sz.DnYMMDN3yXwYi"
+}, {
+  "id": "1617266890009",
+  "accountType": "admin",
+  "name": "James Doe",
+  "email": "james@fdm.com",
+  "password": "$2b$10$I7MAcIFc6SvbT4PJ66qb8u5CXaIKjwW6l8CUa4qJYlRQRT1oH4z/u"
+}, {
+  "id": "1617235572690",
+  "accountType": "user",
+  "name": "John Doe",
+  "email": "john@fdm.com",
+  "jobRole": "Analyst",
+  "password": "$2b$10$l2bFaAbOq/u87LUav4AjH.OzM0VQAVFyNMBgCF5YEK8bJ2sSKUTjC",
+  "bio": "Ex-Forces",
+  "mentor": {
+    "primarySkills": ["Critical Thinking", "Communication", "Leadership"],
+    "requests": [],
+    "mentoringPair": []
+  }
+}, {
+  "id": "1618147420211",
+  "accountType": "user",
+  "name": "Jessica Doe",
+  "email": "jessica@fdm.com",
+  "jobRole": "Data Scientist",
+  "password": "$2b$10$i6LHwZiPJY.E6GDa6Dyckeoxr9vQa/hYcWKqHOLpivxgarvSMY9Ie",
+  "bio": "Post-Graduate Student",
+  "mentor": {
+    "primarySkills": ["Leadership", "Motivation", "Confidence"],
+    "requests": [],
+    "mentoringPair": []
+  }
+}, {
+  "id": "1618147453032",
+  "accountType": "user",
+  "name": "Jacob Doe",
+  "email": "jacob@fdm.com",
+  "jobRole": "Secretary",
+  "password": "$2b$10$tsikbGQ4AQrUhGjaA31Uzupwd.6PM2Xy5n3HQayX59LWU7e/L/1yK",
+  "bio": "Ex-Forces",
+  "mentee": {
+    "desiredSkills": ["Time Management", "Commercial awareness", "Negotiation"],
+    "requested": [],
+    "mentoringPair": []
+  }
+}, {
+  "id": "1617235582982",
+  "accountType": "user",
+  "name": "Jane Doe",
+  "email": "jane@fdm.com",
+  "jobRole": "Engineer",
+  "password": "$2b$10$jBBV8hcf8GGEyQhIQSTraOiTJbyOJPgT1X3Xyc4PpijkTc1Mvt3hu",
+  "bio": "Returner to Work",
+  "mentor": {
+    "primarySkills": ["Time Management", "Communication", "Problem Solving"],
+    "requests": ["1618147411514"],
+    "mentoringPair": [{
+      "mentorId": "1617235582982",
+      "menteeId": "1617235592370"
+    }]
+  },
+  "mentee": {
+    "desiredSkills": ["Critical Thinking", "Perseverence", "Teamwork"],
+    "requested": [],
+    "mentoringPair": []
+  }
+}, {
+  "id": "1617235592370",
+  "accountType": "user",
+  "name": "Jill Doe",
+  "email": "jill@fdm.com",
+  "jobRole": "Secretary",
+  "password": "$2b$10$amOHFf20267/ibW4rVLz4.77DZ.zx1mJm7xBuUwrqoMCbcWj9Ofci",
+  "bio": "Post-Graduate Student",
+  "mentor": {
+    "primarySkills": ["Analytical Skills", "Managing Ambiguity", "Ability to Work Under Pressure"],
+    "requests": [],
+    "mentoringPair": []
+  },
+  "mentee": {
+    "desiredSkills": ["Leadership", "Organisation", "Teamwork"],
+    "requested": [],
+    "mentoringPair": [{
+      "mentorId": "1617235582982",
+      "menteeId": "1617235592370"
+    }]
+  }
+}, {
+  "id": "1618147411514",
+  "accountType": "user",
+  "name": "Jackson Doe",
+  "email": "jackson@fdm.com",
+  "jobRole": "Software Developer",
+  "password": "$2b$10$X0lUyN0ilOD2IZBp2RTLwOIaztZOpnpv.rJp3jAzfolVwkWI1WLxq",
+  "bio": "Returner to Work",
+  "mentee": {
+    "desiredSkills": ["Problem Solving", "Organisation", "Leadership"],
+    "requested": ["1617235582982"],
+    "mentoringPair": []
+  }
+}]
